@@ -1,0 +1,172 @@
+:root {
+  --back-color: white;
+  --cornflower: #e7e9fc;
+  --navy-blue: #2e2f42;
+  --cloud: #f4f4fd;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --slate: #434455;
+}
+/* body text color */
+.body-text-color {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  background-color: #ffffff;
+}
+.help-hat {
+  font-style: normal;
+}
+/* Navigation colours */
+.helper-components {
+  font-weight: 500;
+  color: #2e2f42;
+}
+.helper-components:hover,
+.helper-components:focus {
+  color: #404bbf;
+}
+/* links colours */
+.helper-components-link {
+}
+.contact-link {
+  color: #434455;
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+/* Main frame */
+.main-text {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.main-phrase {
+  background: #2e2f42;
+}
+/* h2 text */
+.submain-text {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.button {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+}
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background: #404bbf;
+}
+/* Our focus */
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* Titles over photos */
+.main-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+/* team background */
+.team-background {
+  background: #f4f4fd;
+}
+.photo-back {
+  background-color: #ffffff;
+}
+/* portfolio cloring */
+.radio-btn {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background: #f4f4fd;
+}
+.radio-btn:hover,
+.radio-btn:focus {
+  color: #ffffff;
+  background: #404bbf;
+}
+/* footer coloring */
+.footer-line {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  background: #2e2f42;
+}
+/* Logo coloring */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo-dark {
+  color: #2e2f42;
+}
+.logo-light {
+  color: #f4f4fd;
+}
+/* buttons cursor */
+.button {
+  cursor: pointer;
+  /* remove links underlines */
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
