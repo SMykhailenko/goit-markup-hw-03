@@ -1,5 +1,14 @@
 /**
   |============================
+  | Roots
+  |============================
+*/
+:root {
+  --indent: 24px;
+  --items: 4;
+}
+/**
+  |============================
   | Header
   |============================
 */
@@ -41,14 +50,13 @@
   |============================
 */
 .hero {
+  margin-bottom: 120px;
   text-align: center;
   padding: 188px 0;
   background: #2e2f42;
 }
 .hero-text {
   margin-bottom: 48px;
-  padding: 16px 32px;
-  /*  */
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -83,6 +91,7 @@ button:hover,
   |============================
 */
 .title {
+  padding-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -99,7 +108,6 @@ button:hover,
   color: #2e2f42;
 }
 .text {
-  margin: 8;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -249,6 +257,25 @@ img {
   | START index.html
   |============================
 */
+/**
+  |============================
+  | CARD-SET
+  |============================
+*/
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--indent);
+}
+.card-set-item {
+  width: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+}
+.photo {
+  --items: 3;
+}
+.cards {
+  --items: 4;
+}
 .help-hat {
   font-style: normal;
   border: 1px solid #e7e9fc;
@@ -282,6 +309,7 @@ img {
   | Hero
   |============================
 */
+
 .button {
   display: block;
   padding: 16px 32px;
@@ -291,5 +319,44 @@ img {
   max-width: 496px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 48px;
+}
+/**
+  |============================
+  | Serction 2
+  |============================
+*/
+.skill-set {
+  padding-bottom: 120px;
+}
+.skill-map {
+  padding-right: 24px;
+}
+.submain-text {
+  padding-bottom: 72px;
+}
+.focus {
+  width: 264px;
+}
+.focus-words {
+  flex-direction: column;
+}
+/**
+    |============================
+    | Section 3
+    |============================
+  */
+.img-section {
+  padding-bottom: 120px;
+}
+/**
+  |============================
+  | Section 4
+  |============================
+*/
+.team-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 16px;
 }
