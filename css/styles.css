@@ -1,13 +1,9 @@
-:root {
-  --back-color: white;
-  --cornflower: #e7e9fc;
-  --navy-blue: #2e2f42;
-  --cloud: #f4f4fd;
-  --iris: #4d5ae5;
-  --ocean: #404bbf;
-  --slate: #434455;
-}
-/* body text color */
+/**
+  |============================
+  | Header
+  |============================
+*/
+
 .body-text-color {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -18,30 +14,12 @@
   color: #434455;
   background-color: #ffffff;
 }
-.help-hat {
-  font-style: normal;
-  border: 1px solid #e7e9fc;
-}
-.help-hat-container {
-  display: flex;
-  align-items: center;
-  margin-right: auto;
-}
-.adr {
-  display: flex;
-  align-items: center;
-}
-.nav-list {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-.mail {
-  margin-right: 40px;
-}
-/* Navigation colours */
+
+/**
+  |============================
+  | Links
+  |============================
+*/
 .helper-components {
   font-weight: 500;
   color: #2e2f42;
@@ -50,7 +28,6 @@
 .helper-components:focus {
   color: #404bbf;
 }
-/* links colours */
 .contact-link {
   color: #434455;
 }
@@ -58,9 +35,20 @@
 .contact-link:focus {
   color: #404bbf;
 }
-/* Main frame */
-
-.main-text {
+/**
+  |============================
+  | HERO section
+  |============================
+*/
+.hero {
+  text-align: center;
+  padding: 188px 0;
+  background: #2e2f42;
+}
+.hero-text {
+  margin-bottom: 48px;
+  padding: 16px 32px;
+  /*  */
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -68,30 +56,7 @@
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-.btn {
-  height: 600px;
-  margin-bottom: 120px;
-}
-.main-phrase {
-  background: #2e2f42;
-}
-/* h2 text */
-.submain-text {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
 .button {
-  min-width: 105;
-  padding: 16px 32px;
-  display: block;
-  margin: 0 auto;
-  align-items: center;
-  min-width: 159;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -104,23 +69,33 @@
   color: #ffffff;
   background: #4d5ae5;
 }
-.button:hover,
+button:hover,
 .button:focus {
   color: #ffffff;
   background: #404bbf;
 }
-
-/* OUR FOCUS */
-
-.sheet {
-  display: flex;
-  margin-right: 24px;
+.button {
+  cursor: pointer;
 }
+/**
+  |============================
+  | Section 2
+  |============================
+*/
 .title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.submain-text {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .text {
@@ -130,7 +105,20 @@
   letter-spacing: 0.02em;
   color: #434455;
 }
-/* Titles over photos */
+/**
+  |============================
+  | Section 3
+  |============================
+*/
+
+/**
+  |============================
+  | Section 4 Team photos
+  |============================
+*/
+.team-background {
+  background: #f4f4fd;
+}
 .main-title {
   font-weight: 700;
   font-size: 36px;
@@ -140,14 +128,15 @@
   text-transform: capitalize;
   color: #2e2f42;
 }
-/* team background */
-.team-background {
-  background: #f4f4fd;
-}
+
 .photo-back {
   background-color: #ffffff;
 }
-/* portfolio cloring */
+/**
+  |============================
+  | Partfolio page
+  |============================
+*/
 .radio-btn {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -176,7 +165,11 @@
   color: #f4f4fd;
   background: #2e2f42;
 }
-/* Logo coloring */
+/**
+  |============================
+  | LOGO
+  |============================
+*/
 .logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -197,15 +190,16 @@
 .logo-light {
   color: #f4f4fd;
 }
-/* buttons cursor */
-.button {
-  cursor: pointer;
-  /* remove links underlines */
-}
+
+/**
+  |============================
+  | RESET styles START
+  |============================
+*/
+
 .link {
   text-decoration: none;
 }
-/* RESET STYLES */
 
 .list {
   color: currentcolor;
@@ -224,20 +218,23 @@ p {
   margin: 0;
 }
 
-/* button reset */
 .button {
   font-family: inherit;
   color: currentColor;
   cursor: pointer;
 }
-/* IMG reset  */
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* Container */
+/**
+  |============================
+  | Container
+  |============================
+*/
 .container {
   width: 1158px;
   margin-left: auto;
@@ -246,4 +243,53 @@ img {
   padding-right: 15px;
   outline: 2px solid red;
   outline-offset: -2px;
+}
+/**
+  |============================
+  | START index.html
+  |============================
+*/
+.help-hat {
+  font-style: normal;
+  border: 1px solid #e7e9fc;
+}
+.help-hat-container {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.adr {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.mail {
+  margin-right: 40px;
+}
+.helper-components,
+.contact-link,
+.logo {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+/**
+  |============================
+  | Hero
+  |============================
+*/
+.button {
+  display: block;
+  padding: 16px 32px;
+  margin: 0 auto;
+}
+.hero-text {
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
