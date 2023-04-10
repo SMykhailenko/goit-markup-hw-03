@@ -417,18 +417,16 @@ img {
   justify-content: center;
   margin-bottom: 72px;
 }
-/* cards */
-.photo-list {
-  --items: 3;
-}
+
 .gallery {
-  padding-bottom: 120px;
+  border-top: none;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 .photo-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 32px 16px;
 }
 .btn-color {
   padding: 12px 24px;
@@ -439,4 +437,18 @@ img {
 .btn-color:hover,
 .btn-color:focus {
   border: 1px solid transparent;
+}
+/**
+  |============================
+  | Portfolio for cheker
+  |============================
+*/
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.pictures-list {
+  width: calc((100% - 48px) / 3);
 }
