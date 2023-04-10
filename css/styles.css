@@ -440,7 +440,7 @@ img {
 .container.foot {
   display: flex;
   align-items: start;
-  -ms-flex-direction: column;
+  flex-direction: column;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -449,9 +449,12 @@ img {
   font-size: 18px;
   line-height: 1.17;
   align-items: center;
-  display: inline-block;
+
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
+}
+.inline {
+  display: inline-block;
 }
