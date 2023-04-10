@@ -306,9 +306,9 @@ img {
 .helper-components,
 .contact-link,
 .logo {
-  display: inline-block;
   padding-top: 24px;
   padding-bottom: 24px;
+  display: inline-block;
 }
 /**
   |============================
