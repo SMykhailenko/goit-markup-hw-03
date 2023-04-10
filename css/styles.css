@@ -306,7 +306,7 @@ img {
 .helper-components,
 .contact-link,
 .logo {
-  display: block;
+  display: inline-block;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -425,13 +425,13 @@ img {
 
 .gallery {
   border-top: none;
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
 }
 .photo-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 .btn-color {
   padding: 12px 24px;
