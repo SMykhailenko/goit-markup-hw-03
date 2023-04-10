@@ -347,9 +347,6 @@ img {
 .focus {
   width: 264px;
 }
-.focus-words {
-  flex-direction: column;
-}
 
 /**
     |============================
