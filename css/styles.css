@@ -407,6 +407,10 @@ img {
   margin-bottom: 96px;
 }
 /* Buttons */
+.btn-top {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .click {
   display: flex;
   flex-direction: row;
@@ -414,7 +418,7 @@ img {
   padding: 0px;
   gap: 24px;
   justify-content: center;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 /* cards */
 .photo-list {
@@ -434,4 +438,8 @@ img {
   background: #f4f4fd;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+}
+.btn-color:hover,
+.btn-color:focus {
+  border: 1px solid transparent;
 }
