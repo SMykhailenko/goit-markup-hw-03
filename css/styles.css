@@ -360,3 +360,67 @@ img {
   align-items: center;
   padding: 32px 16px;
 }
+.cards {
+  padding-bottom: 120px;
+}
+/**
+  |============================
+  | Footer section
+  |============================
+*/
+.container.foot {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+.footer-line {
+  padding: 100px 0;
+}
+
+.foot-line {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.foot-text {
+  width: 264px;
+}
+
+/**
+  |============================
+  | Portfolio placering
+  |============================
+*/
+/* logo placering */
+.portfolio-top {
+  margin-bottom: 96px;
+}
+/* Buttons */
+.click {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  justify-content: center;
+  padding-bottom: 72px;
+}
+/* cards */
+.photo-list {
+  --items: 3;
+}
+.gallery {
+  padding-bottom: 120px;
+}
+.photo-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 32px 16px;
+}
+.btn-color {
+  padding: 12px 24px;
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
