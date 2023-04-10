@@ -50,7 +50,6 @@
   |============================
 */
 .hero {
-  margin-bottom: 120px;
   text-align: center;
   padding: 188px 0;
   background: #2e2f42;
@@ -91,7 +90,7 @@ button:hover,
   |============================
 */
 .title {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -276,6 +275,11 @@ img {
 .cards {
   --items: 4;
 }
+/**
+  |============================
+  | LOGO placering
+  |============================
+*/
 .help-hat {
   font-style: normal;
   border: 1px solid #e7e9fc;
@@ -288,11 +292,12 @@ img {
 .adr {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 .nav-list {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 40px;
 }
 .mail {
   margin-right: 40px;
@@ -309,7 +314,11 @@ img {
   | Hero
   |============================
 */
-
+.hero-btn {
+  min-width: 169px;
+  height: 56px;
+  border: none;
+}
 .button {
   display: block;
   padding: 16px 32px;
@@ -326,13 +335,14 @@ img {
   |============================
 */
 .skill-set {
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 .skill-map {
   padding-right: 24px;
 }
 .submain-text {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .focus {
   width: 264px;
@@ -340,6 +350,7 @@ img {
 .focus-words {
   flex-direction: column;
 }
+
 /**
     |============================
     | Section 3
