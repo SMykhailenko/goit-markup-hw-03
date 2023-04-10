@@ -372,8 +372,9 @@ img {
   align-items: center;
   padding: 32px 16px;
   border-radius: 0px 0px 4px 4px;
+  border-top: none;
 }
-.title-center: {
+.title-center {
   text-align: center;
 }
 /**
@@ -423,9 +424,6 @@ img {
   margin-bottom: 72px;
 }
 
-.gallery {
-  border-top: none;
-}
 .photo-wrapper {
   display: flex;
   flex-direction: column;
