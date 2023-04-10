@@ -178,19 +178,6 @@ button:hover,
   | LOGO
   |============================
 */
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  align-items: center;
-  display: inline-block;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  margin-bottom: 16px;
-}
 
 .logo-dark {
   color: #2e2f42;
@@ -454,4 +441,17 @@ img {
   display: flex;
   align-items: start;
   -ms-flex-direction: column;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  display: inline-block;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-bottom: 16px;
 }
