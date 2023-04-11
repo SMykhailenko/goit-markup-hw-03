@@ -63,25 +63,11 @@
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-.button {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  align-items: center;
-  letter-spacing: 0.04em;
-  border-radius: 4px;
-  color: #ffffff;
-  background: #4d5ae5;
-}
+
 button:hover,
 .button:focus {
   color: #ffffff;
   background: #404bbf;
-}
-.button {
-  cursor: pointer;
 }
 /**
   |============================
@@ -145,23 +131,7 @@ button:hover,
   | Partfolio page
   |============================
 */
-.radio-btn {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background: #f4f4fd;
-}
-.radio-btn:hover,
-.radio-btn:focus {
-  color: #ffffff;
-  background: #404bbf;
-}
+
 /* footer coloring */
 .footer-line {
   font-family: "Roboto", sans-serif;
@@ -270,7 +240,6 @@ img {
 */
 .help-hat {
   font-style: normal;
-  border: 1px solid #e7e9fc;
 }
 .help-hat-container {
   display: flex;
@@ -409,16 +378,7 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.btn-color {
-  padding: 12px 24px;
-  background: #f4f4fd;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
-}
-.btn-color:hover,
-.btn-color:focus {
-  border: 1px solid transparent;
-}
+
 /**
   |============================
   | Portfolio for cheker
@@ -464,4 +424,37 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
+}
+.button {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  color: #ffffff;
+  background: #4d5ae5;
+}
+.radio-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  color: #4d5ae5;
+  background: #f4f4fd;
+}
+
+.radio-btn:hover,
+.radio-btn:focus {
+  color: #ffffff;
+  background: #404bbf;
+}
+.btn-color:hover,
+.btn-color:focus {
+  border: 1px solid transparent;
 }
