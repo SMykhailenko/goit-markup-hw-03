@@ -240,6 +240,7 @@ img {
 */
 .help-hat {
   font-style: normal;
+  border-bottom: 1px solid #e7e9fc;
 }
 .help-hat-container {
   display: flex;
