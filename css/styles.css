@@ -241,11 +241,15 @@ img {
 .help-hat {
   font-style: normal;
 }
+.help-hat-border {
+  font-style: normal;
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .help-hat-container {
   display: flex;
   align-items: center;
   margin-right: auto;
-  border-bottom: 1px solid #e7e9fc;
 }
 .adr {
   display: flex;
